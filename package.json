@@ -1,0 +1,16 @@
+{
+  "name": "gemini-proxy",
+  "version": "1.0.0",
+  "description": "代理 Gemini 2.5 Flash 模型到国内使用",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building...'",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.0.0"
+  }
+}
