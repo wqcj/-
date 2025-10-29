@@ -1,0 +1,13 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[functions]
+  node_bundler = "esbuild"
+
+# 环境变量配置（在 Netlify 后台设置）
+# GEMINI_API_KEY = "your-gemini-api-key"
+# ALLOWED_ORIGINS = "https://your-domain.netlify.app"
